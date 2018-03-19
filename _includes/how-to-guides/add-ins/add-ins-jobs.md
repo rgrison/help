@@ -12,8 +12,8 @@ You can set the timing of the job in either minutes, hours, a daily, weekly and 
 There are a variety of jobs for your stack.
 
 <ul>
-    {% if page.collection == 'maestro' OR page.collection == 'legacy_docker' %}<li><a href="/{{page.collection}}/how-to-guides/add-ins/docker-server-task.html">Docker server task</a></li>
-    <li><a href="/{{page.collection}}/how-to-guides/add-ins/docker-service-task.html">Docker service task</a></li>{% endif %}
+    <li><a href="/{{page.collection}}/how-to-guides/add-ins/server-task.html">Docker server task</a></li>
+    {% if page.collection == 'maestro' OR page.collection == 'legacy_docker' %}<li><a href="/{{page.collection}}/how-to-guides/add-ins/docker-service-task.html">Docker service task</a></li>{% endif %}
     <li><a href="/{{page.collection}}/how-to-guides/add-ins/shell.html">Shell command</a></li>
     {% if page.collection == 'rails' %}<li><a href="/{{page.collection}}/how-to-guides/add-ins/rake-task.html">Rake task</a></li>{% endif %}
 </ul>

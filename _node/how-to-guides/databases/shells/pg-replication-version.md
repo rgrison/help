@@ -8,7 +8,6 @@ legacy: false
 
 permalink: /:collection/:path
 ---
-{% assign product = "common" %}
 
 When you initiate replication between two PostgreSQL databases on Cloud 66, we setup [streaming replication](https://wiki.postgresql.org/wiki/Streaming_Replication) between the master and slave servers. Streaming replication is based on [log shipping](http://www.postgresql.org/docs/9.4/static/warm-standby.html) between servers, which generally isn't possible between two servers running vastly different versions of PostgreSQL.
 
@@ -23,7 +22,7 @@ DETAIL:  The data directory was initialized by PostgreSQL version 9.3, which is 
 
 In this case, you need to upgrade the data and libraries of the master server (9.3) with [pg_upgrade](http://www.postgresql.org/docs/9.4/static/pgupgrade.html) before starting the replication.
 
-Remember that you can see the version of PostgreSQL to install on your stack by using a [manifest file](/{{page.collection}}/tutorials/getting-started-with-manifest.html), like so:
+Remember that you can see the version of PostgreSQL to install on your stack by using a [manifest file](/node/tutorials/getting-started-with-manifest.html), like so:
 
 ```
 production:

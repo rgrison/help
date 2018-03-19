@@ -11,6 +11,6 @@ permalink: /:collection/:path
 ---
 
 
-{% assign product = 'legacy_docker' %}
+
 
 {% include how-to-guides/deployment/websocket-support.md product = product %}

@@ -10,6 +10,6 @@ permalink: /:collection/:path
 ---
 
 
-{% assign product = 'legacy_docker' %}
+
 
 {% include tutorials/getting-started-with-manifest.md product = product %}

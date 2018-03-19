@@ -9,6 +9,6 @@ tags: ["operations"]
 permalink: /:collection/:path
 ---
 
-{% assign product = 'legacy_docker' %}
+
 
 {% include tutorials/redeployment-hook.md product = product %}

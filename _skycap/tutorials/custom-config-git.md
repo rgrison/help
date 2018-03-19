@@ -9,6 +9,6 @@ tags: ["customization"]
 permalink: /:collection/:path
 ---
 
-{% assign product = 'skycap' %}
+
 
 {% include tutorials/custom-config-git.md product = product %}

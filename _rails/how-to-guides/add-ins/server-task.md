@@ -1,7 +1,7 @@
 ---
 layout: post
 template: one-col
-title:  "What is the Docker Server task Add-in"
+title:  "What is the Server task Add-in"
 categories: how-to-guides/add-ins
 lead: Schedule automated tasks on a server host
 tags: ['Add in']
@@ -11,4 +11,4 @@ permalink: /:collection/:path
 
 
 
-{% include how-to-guides/add-ins/docker-server-task.md %}
+{% include how-to-guides/add-ins/server-task.md %}

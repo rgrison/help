@@ -23,8 +23,7 @@ Cloud 66 provides two types of backups: _managed_ and _unmanaged_.
 Having managed backups carries several benefits:
 
 - You can download database backups through the web UI and API
-- [Backup verifiers](/rails/tutorials/backup-verifiers.html) ensure that your backups actually contain what you expect
-- Use [database replication](/rails/tutorials/database-replication.html) to scale your databases
+- Use [database replication](/node/tutorials/database-replication.html) to scale your databases
 - You can easily restore database backups
 - Stored in Cloud 66 storage
 
@@ -108,7 +107,7 @@ You can retrieve your backup in one of three ways:
 
 ### Cloud 66 toolbelt
 
-You can retrieve your database backup by using the [toolbelt backup management](/{{page.collection}}/references/shells/toolbelt.html#create-backup). Your backup may be bigger than 350 MB, in which case it will be divided into several files. By using the toolbelt, the files are downloaded and concatenated automatically for you.
+You can retrieve your database backup by using the [toolbelt backup management](/node/references/shells/toolbelt.html#create-backup). Your backup may be bigger than 350 MB, in which case it will be divided into several files. By using the toolbelt, the files are downloaded and concatenated automatically for you.
 
 
 ### Download script

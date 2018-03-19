@@ -8,7 +8,6 @@ legacy: true
 tags: ["nginx"]
 permalink: /:collection/:path
 ---
-{% assign product = "common" %}
 
 In addition to protecting your application (or parts of it) using [HTTP basic authentication](/{{page.collection}}/how-to-guides/security/nginx-auth.html), you can use Cloud 66 [CustomConfig](/{{page.collection}}/tutorials/custom-config.html) to block (or allow) access to your application based on IP addresses.
 

@@ -10,6 +10,6 @@ permalink: /:collection/:path
 ---
 
 
-{% assign product = 'rails' %}
+
 
 {% include how-to-guides/deployment/parallel-deployment.md product = product %}

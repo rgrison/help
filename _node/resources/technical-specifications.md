@@ -9,6 +9,6 @@ legacy: false
 permalink: /:collection/:path
 ---
 
-{% assign product = 'node' %}
 
-{%include resources/technical-specifications.md product = product %}
+
+{% include general/resources/technical-specifications.md product = product %}

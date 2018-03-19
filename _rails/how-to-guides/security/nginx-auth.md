@@ -9,7 +9,6 @@ change: true
 permalink: /:collection/:path
 tags: ["nginx"]
 ---
-{% assign product = "common" %}
 
 You can use Cloud 66 [CustomConfig](/{{page.collection}}/tutorials/custom-config.html) to protect your application or parts of it with a username and password based on HTTP basic authentication.
 Follow the instructions below to accomplish this.

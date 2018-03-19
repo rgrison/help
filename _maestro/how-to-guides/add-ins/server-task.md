@@ -5,10 +5,10 @@ title:  "What is the Docker Server task Add-in"
 categories: how-to-guides/add-ins
 lead: Schedule automated tasks on a server host
 tags: ['Add in']
-legacy: true
+legacy: false
 permalink: /:collection/:path
 ---
 
 
 
-{% include how-to-guides/add-ins/docker-server-task.md %}
+{% include how-to-guides/add-ins/server-task.md %}

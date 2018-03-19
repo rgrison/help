@@ -8,7 +8,6 @@ legacy: true
 
 permalink: /:collection/:path
 ---
-{% assign product = "common" %}
 
 We use the default data folder when installing PostgreSQL on your server, which is  `/usr/local/pgsql/data`.
 To change this folder, follow the instructions below.

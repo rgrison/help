@@ -10,5 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-
-{% include references/clouds/cloud-linode.md  product = page.collection %}
+{% include general/references/clouds/cloud-linode.md %}

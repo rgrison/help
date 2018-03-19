@@ -9,6 +9,6 @@ tags: ["customization"]
 permalink: /:collection/:path
 ---
 
-{% assign product = 'legacy_docker' %}
+
 
 {% include tutorials/custom-config.md product = product %}

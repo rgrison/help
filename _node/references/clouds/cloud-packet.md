@@ -9,7 +9,4 @@ tags: ["operations"]
 permalink: /:collection/:path
 ---
 
-
-
-
-{% include references/clouds/cloud-packet.md  product = page.collection %}
+{% include general/references/clouds/cloud-packet.md %}

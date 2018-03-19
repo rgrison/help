@@ -10,6 +10,6 @@ permalink: /:collection/:path
 ---
 
 
-{% assign product = 'legacy_docker' %}
+
 
 {%include resources/technical-specifications.md product = product %}

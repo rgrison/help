@@ -9,6 +9,30 @@ tags: ["customization"]
 permalink: /:collection/:path
 ---
 
-{% assign product = 'node' %}
 
-{% include tutorials/scaling.md product = product %}
+
+
+## About scaling servers
+
+You can scale your servers in two ways: horizontal and vertical. Horizontal scaling involves adding more servers, whereas vertical scaling involves altering the resources of a specific server, for example increasing the server size.
+
+### Horizontal scaling
+
+Horizontal scaling works differently for each server type, and is only available if you have deployed using your cloud provider.
+
+## Web servers
+
+To scale up your web servers, start by adding a load balancer to your stack, which will distribute traffic to your servers. Next, from your stack detail page, click the link to your web server group (eg. Docker server). To add a web server, click Scale up in the top right corner, select your desired server size and quantity, and click Scale up. Your new server(s) will automatically be added to the load balancer after they have completed provisioning and deployment, ready to serve traffic.
+
+If you are using AWS, you will also have the option to scale your servers to different [Availability Zones](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) within your region.
+
+You can also scale down your web servers. From your stack detail page, click the link to your web server group (eg. Docker server), and click the X icon next to the server you would like to scale down. This server will automatically be removed from your load balancer, but you will need to delete it from your cloud provider. Note that your primary web server cannot be scaled down, because this would leave you without a web server.
+
+### Process servers
+When you first build your stack, your processes are run on your web server by default. To scale up a process server, click the link to your Process server group on your stack detail page. Next, click New process server in the top right corner, select the desired server size and quantity, and click Scale up.
+
+Once the server is ready, you can move your processes from the web server to the process server by using the + and - buttons. The process server is very much like a web server, as it needs all the code and dependencies for your workers. By default however, it will not serve web content. If you would like the process server to serve web content, add a load balancer to your stack and access the load balancer page. This page allows you to toggle serving web content from a process server On and Off.
+
+## Database servers
+
+You can scale your database servers through database replication, or Elasticsearch through [sharding](/node/how-to-guides/databases/elasticsearch-scaling.html). See our [database management section](/node/how-to-guides/databases/database-customization.html) for more information.

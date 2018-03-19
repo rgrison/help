@@ -9,6 +9,6 @@ tags: ["customization"]
 permalink: /:collection/:path
 ---
 
-{% assign product = 'rails' %}
+
 
 {% include how-to-guides/deployment/enable-disable-asset-pipeline.md product = product %}

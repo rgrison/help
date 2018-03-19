@@ -9,9 +9,8 @@ change: true
 permalink: /:collection/:path
 tags: ["nginx"]
 ---
-{% assign product = "common" %}
 
-You can use Cloud 66 [CustomConfig](/{{page.collection}}/tutorials/custom-config.html) to protect your application or parts of it with a username and password based on HTTP basic authentication.
+You can use Cloud 66 [CustomConfig](/node/tutorials/custom-config.html) to protect your application or parts of it with a username and password based on HTTP basic authentication.
 Follow the instructions below to accomplish this.
 
 1.  We'll use [htpasswd](http://httpd.apache.org/docs/2.2/programs/htpasswd.html) to create your password file - it encrypts it the password with MD5 encryption. Install it: 
@@ -20,7 +19,7 @@ Follow the instructions below to accomplish this.
 2.  Once that is installed, we're ready to create your password file. We recommend that you create this file within your repository, which will be deployed to your servers. This command will prompt you to input a password.
 
 		sudo htpasswd -c <directory>.htpasswd <user_name>
-3.  Now we can go ahead and customize the Nginx configuration, which you can see more about in our [Nginx CustomConfig documentation]({% if page.collection == "skycap" %}/maestro/references/nginx.html{%else%}/{{page.collection}}/references/nginx.html{%endif%}).
+3.  Now we can go ahead and customize the Nginx configuration, which you can see more about in our [Nginx CustomConfig documentation]({% if page.collection == "skycap" %}/maestro/references/nginx.html{%else%}/node/references/nginx.html{%endif%}).
 
 You will want to add the following code within the server section of your configuration. Where you put it will depend on which Rack server you are running, and whether or not you are using HTTPS traffic.
 

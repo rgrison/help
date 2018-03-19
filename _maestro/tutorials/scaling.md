@@ -9,6 +9,6 @@ tags: ["customization"]
 permalink: /:collection/:path
 ---
 
-{% assign product = 'maestro' %}
+
 
 {% include tutorials/scaling.md product = product %}

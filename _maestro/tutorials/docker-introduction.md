@@ -10,6 +10,6 @@ permalink: /:collection/:path
 ---
 
 
-{% assign product = 'maestro' %}
+
 
 {% include tutorials/docker-introduction.md product = product %}

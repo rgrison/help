@@ -10,6 +10,6 @@ permalink: /:collection/:path
 ---
 
 
-{% assign product = 'rails' %}
+
 
 {%include resources/technical-specifications.md product = product %}

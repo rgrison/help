@@ -8,7 +8,7 @@ legacy: false
 tags: ["PostgreSQL", "MySQL", "Redis", "MongoDB"]
 permalink: /:collection/:path
 ---
-You can customize the database configuration on your servers using [CustomConfig](/{{page.collection}}/tutorials/custom-config.html). CustomConfig is available for MySQL, PostgreSQL, Redis and MongoDB.
+You can customize the database configuration on your servers using [CustomConfig](/node/tutorials/custom-config.html). CustomConfig is available for MySQL, PostgreSQL, Redis and MongoDB.
 
 Editing and committing your database CustomConfig will perform the following steps on every database server in your stack, one by one, sequentially:
 
@@ -68,7 +68,4 @@ The following variables are available to any database CustomConfig.
    </tbody>
   </table>
 
-{% if include.dbtype == "redis" or include.dbtype == "postgres" or include.dbtype == "mysql" %}
-
-{% endif %}
 

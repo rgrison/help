@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include resources/terminology.md %}
+{% include general/resources/terminology.md %}

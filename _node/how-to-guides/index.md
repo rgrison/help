@@ -39,7 +39,7 @@ permalink: /:collection/:categories/index.html
 
     <h2></h2>
     <ul>
-    {% assign section = site.maestro | where:"categories","how-to-guides/dashboard" | sort: "order" %}
+    {% assign section = site.node | where:"categories","how-to-guides/dashboard" | sort: "order" %}
     {% include list_articles.html section=section %}
     
     </ul>

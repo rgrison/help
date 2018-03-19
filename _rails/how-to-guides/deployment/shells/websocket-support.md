@@ -10,6 +10,6 @@ tags: ["websocket"]
 permalink: /:collection/:path
 ---
 
-{% assign product = 'rails' %}
+
 
 {% include how-to-guides/deployment/websocket-support.md product = product %}

@@ -8,6 +8,6 @@ legacy: false
 tags: ["getting-started"]
 permalink: /:collection/:path
 ---
-{% assign product = 'node' %}
 
-{% include concepts/stack-definition.md product=product %}
+
+{% include general/concepts/stack-definition.md product=product %}

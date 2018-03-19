@@ -10,6 +10,6 @@ permalink: /:collection/:path
 ---
 
 
-{% assign product = 'legacy_docker' %}
+
 
 {% include how-to-guides/deployment/deployment-history.md product = product %}

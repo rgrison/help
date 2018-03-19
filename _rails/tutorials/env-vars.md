@@ -9,6 +9,6 @@ tags: ["customization"]
 permalink: /:collection/:path
 ---
 
-{% assign product = 'rails' %}
+
 
 {% include how-to-guides/deployment/env-vars.md product = product %}
