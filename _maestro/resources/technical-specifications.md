@@ -12,4 +12,4 @@ permalink: /:collection/:path
 
 
 
-{%include resources/technical-specifications.md product = product %}
+{% include general/resources/technical-specifications.md product = product %}

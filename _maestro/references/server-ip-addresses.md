@@ -9,11 +9,7 @@ tags: ["security"]
 permalink: /:collection/:path
 ---
 
-
-
 ## Cloud 66 Agent
-
-
 
 ### Important
 

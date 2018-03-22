@@ -8,5 +8,5 @@ tags: ["Toolbelt"]
 permalink: /:collection/:path
 ---
 
-{% include references/toolbelt/toolbelt-processes.md %}
+{% include general/references/toolbelt/toolbelt-processes.md %}
 

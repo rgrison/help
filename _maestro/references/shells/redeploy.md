@@ -8,4 +8,4 @@ tags: ["Toolbelt"]
 permalink: /:collection/:path
 ---
 
-{% include references/toolbelt/redeploy.md %}
+{% include general/references/toolbelt/redeploy.md %}

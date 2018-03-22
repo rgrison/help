@@ -70,7 +70,3 @@ The following variables are available to any database CustomConfig.
    </tbody>
   </table>
 
-{% if include.dbtype == "redis" or include.dbtype == "postgres" or include.dbtype == "mysql" %}
-
-{% endif %}
-

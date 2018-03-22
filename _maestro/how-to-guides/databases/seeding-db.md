@@ -26,8 +26,6 @@ bundle exec rake db:seed
 ```
 
 
-
-
 ## Deploy hook
 
 Add a deploy hook to execute the above script during the first deploy (on the first server only). 
