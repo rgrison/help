@@ -14,7 +14,7 @@ permalink: /:collection/:path
 
 Cloud 66 aims to make it easier to build immutable infrastructure. Building servers and stacks from scratch is much better than modifying existing server configurations and tinkering with settings until things start to work.
 
-Of course everyone knows that, the reasons they don't do it is that it's difficult, time consuming and can be unpredicatble. That's why we want to make building stacks from scratch as easy and as quick as possible. So in all cases of upgrade, our first recommendation is to build a new stack and redirect your traffic to the new stack using our [Elastic Address](/{{page.collection}}/tutorials/failover-groups.html).
+Of course everyone knows that, the reasons they don't do it is that it's difficult, time consuming and can be unpredicatble. That's why we want to make building stacks from scratch as easy and as quick as possible. So in all cases of upgrade, our first recommendation is to build a new stack and redirect your traffic to the new stack using our [Elastic Address](/maestro/tutorials/failover-groups.html).
 
 We are always working to make it easier to build a new stack, move your data and switch your traffic arround but it might not always be what you want to do or as easy as you would like it to be. So here is what we suggest as alternatives and exceptions.
 
@@ -46,21 +46,21 @@ Note that some security packages may require a server restart. We don't automati
 
 The recommended way to upgrade your passenger to the latest one is:
 
-* Scale up a new web server and drop the old one, so the scaled up one will automatically have the [latest version](/{{page.collection}}/resources/technical-specifications.html#component-versions) supported by Cloud 66.
+* Scale up a new web server and drop the old one, so the scaled up one will automatically have the [latest version](/maestro/resources/technical-specifications.html#component-versions) supported by Cloud 66.
 
 <h3 id="docker">Docker and Weave</h3>
 <div class="notice">
     <h3>Tip!</h3>
     <p>It is best to keep your Docker and Weave versions up to date as they are released quite frequently with bug/security fixes </p>
 </div>
-1. Update your manifest file (Configuration Files -> Manifest.yml) and change the Docker and Weave version to the [latest ones](/{{page.collection}}/resources/technical-specifications.html#component-versions).
+1. Update your manifest file (Configuration Files -> Manifest.yml) and change the Docker and Weave version to the [latest ones](/maestro/resources/technical-specifications.html#component-versions).
 
 <p>2. Click on <b>DEPLOY</b> and choose <b>Deploy with options</b></p>
 <p>3. Go to the <b>More options</b> tab and tick the <b>Apply Docker upgrades</b> check box.</p>
 
 <div class="notice notice-danger">
     <h3>Warning!</h3>
-    <p>Upgrading in-place involves downtime as the docker engine and local files are all upgraded. To have zero down-time you'd have to clone your stack and use <a href="/{{page.collection}}/tutorials/failover-groups.html">Failover groups </a> to switch to the new one.</p>
+    <p>Upgrading in-place involves downtime as the docker engine and local files are all upgraded. To have zero down-time you'd have to clone your stack and use <a href="/maestro/tutorials/failover-groups.html">Failover groups </a> to switch to the new one.</p>
 </div>
 
 <h2 id="manual">About manual upgrades</h2>

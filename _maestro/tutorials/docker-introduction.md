@@ -39,23 +39,23 @@ We provide a set of tools and practices to help you run a full end to end produc
 
 ### Ready?
 
-Are you ready to [build your first Docker stack](/{{page.collection}}/concepts/stack-definition.html)?
+Are you ready to [build your first Docker stack](/maestro/concepts/stack-definition.html)?
 
 Cloud 66 Docker includes the following:
    - [Container life-cycle management](/maestro/quickstarts/getting_started.html)
    - [BuildGrid](/legacy_docker/references/build-grid.html)
-   - [Networking layer and DNS](/{{page.collection}}/tutorials/service-network-configuration.html)
-   - [Storage layer](/{{page.collection}}/how-to-guides/deployment/service-storage.html)
-   - [Docker scaling](/{{page.collection}}/references/shells/toolbelt.html#scaling-services)
+   - [Networking layer and DNS](/maestro/tutorials/service-network-configuration.html)
+   - [Storage layer](/maestro/how-to-guides/deployment/service-storage.html)
+   - [Docker scaling](/maestro/references/shells/toolbelt.html#scaling-services)
 
 Docker-based stacks enjoy the same benefits as other Cloud 66 stacks, including: 
-   - [Deployed and managed databases](/{{page.collection}}/how-to-guides/databases/database-customization.html)
-   - Database [backups](/{{page.collection}}/tutorials/database-backup.html) and [replication](/maestro/tutorials/database-replication.html)
-   - [Load balancing](/{{page.collection}}/tutorials/load-balancing.html)
-   - [Firewall management and brute force protection for web and SSH](/{{page.collection}}/tutorials/service-network-configuration.html)
-   - [Team and organisations](/{{page.collection}}/references/account/team-accounts.html)
-   - Fast response 100% SLA DNS layer [failover groups](/{{page.collection}}/tutorials/failover-groups.html) for quick traffic switch overs
-   - [Server vital sign metrics](/{{page.collection}}/how-to-guides/deployment/shells/setting-up-custom-livelogs.html)
+   - [Deployed and managed databases](/maestro/how-to-guides/databases/database-customization.html)
+   - Database [backups](/maestro/tutorials/database-backup.html) and [replication](/maestro/tutorials/database-replication.html)
+   - [Load balancing](/maestro/tutorials/load-balancing.html)
+   - [Firewall management and brute force protection for web and SSH](/maestro/tutorials/service-network-configuration.html)
+   - [Team and organisations](/maestro/references/account/team-accounts.html)
+   - Fast response 100% SLA DNS layer [failover groups](/maestro/tutorials/failover-groups.html) for quick traffic switch overs
+   - [Server vital sign metrics](/maestro/how-to-guides/deployment/shells/setting-up-custom-livelogs.html)
    - [Intuitive UI](https://app.cloud66.com/dashboard)
-   - [API](http://developers.cloud66.com) and [command line](/{{page.collection}}/quickstarts/using-cloud66-toolbelt.html)
+   - [API](http://developers.cloud66.com) and [command line](/maestro/quickstarts/using-cloud66-toolbelt.html)
 

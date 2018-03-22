@@ -33,9 +33,8 @@ Once the server is ready, you can move your processes from the web server to the
 
 ## Database servers
 
-You can scale your database servers through database replication, or Elasticsearch through [sharding](/{{page.collection}}/how-to-guides/databases/elasticsearch-scaling.html). See our [database management section](/{{page.collection}}/how-to-guides/databases/database-customization.html) for more information.
+You can scale your database servers through database replication, or Elasticsearch through [sharding](/maestro/how-to-guides/databases/elasticsearch-scaling.html). See our [database management section](/maestro/how-to-guides/databases/database-customization.html) for more information.
 
-{% if page.collection == 'legacy_docker' %}
 
 ## Docker services
 
@@ -49,25 +48,4 @@ services:
         constraints:
             max_count: 2
 ```
-{% endif %}
-{% if page.collection == 'rails' %}
 
-## Vertical scaling
-
-### Note
-
-This only applies to Rails stacks not Docker ones
-
-A number of cloud vendors allow you to increase and/or decrease the size of an existing server via their dashboard, allowing you to change the memory and CPU for existing servers. Vertical scaling works the same way for all server types.
-
-Follow these steps to scale your server vertically:
-
-1. Shut down the server through your cloud dashboard
-2. Change the server size and start it up
-3. Wait 10 minutes for Cloud 66 to identify the change, and then redeploy the stack
-
-Note that if you have a load balancer and are using AWS as your cloud vendor, this is slightly more complex. AWS load balancers use a unique identifier for each server, which is updated when you change the size of the server.
-
-Scaling vertically on AWS with the instructions above will therefore only work with backend servers but not app servers, as these are served via the load balancer. For application servers, we recommend that you scale up a new server (with your desired size) and delete the old one.
-
-{% endif %}

@@ -14,7 +14,7 @@ permalink: /:collection/:path
 
 We currently support the following databases, with no need for additional configuration after deployment.
 
-* MySQL (or Percona if [configured via Manifest](/{{page.collection}}/how-to-guides/deployment/building-a-manifest-file.html#mysql))
+* MySQL (or Percona if [configured via Manifest](/maestro/how-to-guides/deployment/building-a-manifest-file.html#mysql))
 * PostgreSQL
 * MongoDB
 * Redis
@@ -47,7 +47,7 @@ Once the new stack is created, you can migrate data from your old stack to your 
 
 <h2 id="customize">Customize your database configuration</h2>
 
-You can customize the database configuration on your servers using [CustomConfig](/{{page.collection}}/tutorials/custom-config-git.html). CustomConfig is available for MySQL, PostgreSQL, Redis and MongoDB.
+You can customize the database configuration on your servers using [CustomConfig](/maestro/tutorials/custom-config-git.html). CustomConfig is available for MySQL, PostgreSQL, Redis and MongoDB.
 
 Editing and committing your database CustomConfig will perform the following steps on every database server in your stack, one by one, sequentially:
 

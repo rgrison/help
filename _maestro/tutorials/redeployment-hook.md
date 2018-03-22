@@ -20,12 +20,9 @@ Redeployment hooks allow you to achieve continuous deployment by deploying your 
 Your redeployment hook URL is automatically generated for each of your stacks. You can found your unique redeployment hook URL on your stack information page (available via the **stack information** link on the main stack page's right hand navigation menu)
 
 
-{% if include.product == 'legacy_docker' or include.product == 'maestro' or include.product == 'skycap' %}
 ### For Docker Stacks
 
 Docker Stacks can have multiple services which can rely on a combination of either Image or Git sources. Furthermore, the Git sources can be the same or different branches, or even completely different repositories. To handle this, we have introduced and addition _services modifier_ that can be appended to the redeployment hook tp specify which services to redeploy (the _services modifier_ is a querystring parameter).
-
-{% endif %}
 
 When a redeployment hook is invoked:
 
@@ -59,7 +56,7 @@ In the case where the payload of the commit hook does not contain any branch inf
 
 #### Github Integration
 
-Users who have signed in through Github (and who have enough access to create and edit deployement events for their stacks on GitHub) can activate continuous deployments on GitHub. To do this: access your [Stack settings](/{{page.collection}}/references/shells/toolbelt.html#settings-variables) via the toolbelt
+Users who have signed in through Github (and who have enough access to create and edit deployement events for their stacks on GitHub) can activate continuous deployments on GitHub. To do this: access your [Stack settings](/maestro/references/shells/toolbelt.html#settings-variables) via the toolbelt
  and set **continuous.deploy** to _true_.
 
 ```
@@ -71,7 +68,7 @@ This will create a new webhook for your repository on GitHub or simply modify an
 With this feature enabled, whenever you push new commit, Cloud 66 will automatically generate a new _deployment event_ based on recieving the _push event_ from GitHub. We will also send _deployment status events_ on different deployment statuses, such as started, cancelled, succeeded and failed.
 
 For more information please refer to the 
-Github Deployment API](/{{page.collection}}/quickstarts/using-cloud66-toolbelt.html).
+Github Deployment API](/maestro/quickstarts/using-cloud66-toolbelt.html).
 
 
 ## Adding Redeployment Hooks
@@ -110,4 +107,4 @@ curl -X POST [your redeployment hook URL]
 
 ### Note
 
-If you are manually invoking redeployments you should consider using the [Cloud 66 CommandLine Tool](/{{page.collection}}/references/shells/toolbelt.html#redeploy-your-stack) instead, as it has additional features!
+If you are manually invoking redeployments you should consider using the [Cloud 66 CommandLine Tool](/maestro/references/shells/toolbelt.html#redeploy-your-stack) instead, as it has additional features!

@@ -24,7 +24,7 @@ To by pass the auto detection and traffic redirection by HAProxy, you can connec
 
 ### Important
 
- 8080 and 8443 ports should be opened by default on your rails servers and HAProxy. You can verify it on the [Stack Security](/{{page.collection}}/tutorials/service-network-configuration.html) page.
+ 8080 and 8443 ports should be opened by default on your rails servers and HAProxy. You can verify it on the [Stack Security](/maestro/tutorials/service-network-configuration.html) page.
 
 
 

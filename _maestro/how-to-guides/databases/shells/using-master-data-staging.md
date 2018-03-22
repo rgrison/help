@@ -10,6 +10,6 @@ permalink: /:collection/:path
 ---
 
 
-1.  [Share your production database with the staging stack](/{{page.collection}}/how-to-guides/databases/shells/sharing-db.html), which would allow read/write access to the database from your staging enviroment. In this scenario, we **strongly urge** you to look closely at how you will avoid writing incorrect data to the production database.
+1.  [Share your production database with the staging stack](/maestro/how-to-guides/databases/shells/sharing-db.html), which would allow read/write access to the database from your staging enviroment. In this scenario, we **strongly urge** you to look closely at how you will avoid writing incorrect data to the production database.
 2.  [Setup a master/slave database on the production stack](/maestro/tutorials/database-replication.html) and connect to the slave from the staging stack. This would only allow read access, so may not be suitable.
-3.  Use the [database import feature](/{{page.collection}}/how-to-guides/databases/shells/sharing-db.html) to copy your production database to the staging database. This is perhaps the best alternative, as you're not working directly with your production database.
+3.  Use the [database import feature](/maestro/how-to-guides/databases/shells/sharing-db.html) to copy your production database to the staging database. This is perhaps the best alternative, as you're not working directly with your production database.
