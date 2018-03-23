@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include resources/pci-compliance.md %}
+{% include general/resources/pci-compliance.md %}

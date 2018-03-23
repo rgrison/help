@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{% include concepts/stack-definition.md product=product %}
+{% include general/concepts/stack-definition.md product=product %}

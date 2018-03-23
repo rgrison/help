@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include resources/beta-program/cloud-66-beta-program.md %}
+{% include general/resources/beta-program/cloud-66-beta-program.md %}

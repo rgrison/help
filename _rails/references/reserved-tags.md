@@ -9,4 +9,4 @@ legacy: false
 permalink: /:collection/:path
 ---
 
-{% include references/reserved-tags.md %}
+{% include general/references/reserved-tags.md %}

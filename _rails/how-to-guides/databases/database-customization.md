@@ -9,8 +9,6 @@ tags: ["PostgreSQL", "MySQL", "Redis", "MongoDB"]
 permalink: /:collection/:path
 ---
 
-{% assign dbtype = "postgres" %}
-
 ## Customize your database configuration
 
 You can customize the database configuration on your servers using [CustomConfig](/{{page.collection}}/tutorials/custom-config.html). CustomConfig is available for MySQL, PostgreSQL, Redis and MongoDB.
@@ -72,8 +70,3 @@ The following variables are available to any database CustomConfig.
     </tr>
    </tbody>
   </table>
-
-{% if include.dbtype == "redis" or include.dbtype == "postgres" or include.dbtype == "mysql" %}
-
-{% endif %}
-

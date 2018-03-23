@@ -9,4 +9,4 @@ tags: ["account", "security"]
 permalink: /:collection/:path
 ---
 
-{%include references/account/two-step-verification.md %}
+{% include general/references/account/two-step-verification.md %}

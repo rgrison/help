@@ -9,5 +9,6 @@ legacy: false
 permalink: /:collection/:path
 ---
 
+## Add a shell command
 
-{% include how-to-guides/add-ins/shell.md %}
+This add-in allows you to schedule the execution of shell commands on your servers. Your run results (success, failure and any output) can be seen in real-time on the detail page.
