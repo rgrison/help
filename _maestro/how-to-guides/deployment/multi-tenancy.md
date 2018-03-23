@@ -61,5 +61,5 @@ services:
 
 In this example, we split the traffic based on the requested domain. As you can see you can match traffic based on multiple domains as well as wildcard (`*`) subdomains.
 
-See [Docker Service Configuration](/maestro/deployment/docker-service-configuration.html) for more information on `service.yml`.
+See [Docker Service Configuration](/maestro/tutorials/docker-service-configuration.html) for more information on `service.yml`.
 

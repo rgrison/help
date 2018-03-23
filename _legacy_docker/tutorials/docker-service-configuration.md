@@ -90,15 +90,15 @@ Below is a table of the available configurations for a given service with a brie
      <td> <strong>Description</strong> </td> 
     </tr> 
     <tr> 
-     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">build_command</a> </td> 
+     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/how-to-guides/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">build_command</a> </td> 
      <td> Specifies the command you would like to run during stack build. </td> 
     </tr> 
     <tr> 
-     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">build_root</a> </td> 
+     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/how-to-guides/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">build_root</a> </td> 
      <td> Specifies the directory of your repository in which you wish to run your Docker build. </td> 
     </tr> 
     <tr> 
-     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">command</a> </td> 
+     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/how-to-guides/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">command</a> </td> 
      <td> Specifies the command used to start your container. </td> 
     </tr> 
     <tr> 
@@ -106,7 +106,7 @@ Below is a table of the available configurations for a given service with a brie
      <td> Specifies <a href="{% if page.collection == "skycap" %}/maestro/tutorials/scaling.html{% else %}/{{page.collection}}/tutorials/scaling.html{% endif %}">container amount</a> or <a href="/{{page.collection}}/tutorials/docker-service-configuration.html">resource</a> constraints for a service across the cluster. </td> 
     </tr> 
     <tr> 
-     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}"</a> </td> 
+     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/how-to-guides/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}"</a> </td> 
      <td> Specifies the command you would like to run during stack deploy (runs once per service). </td> 
     </tr> 
     <tr> 
@@ -114,7 +114,7 @@ Below is a table of the available configurations for a given service with a brie
      <td> Specifies the dns behaviour for this service. One of the values: <em>versioned</em>, <em>non-versioned</em>. Default value is <em>versioned</em> </td> 
     </tr> 
     <tr> 
-     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">dockerfile_path</a> </td> 
+     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/how-to-guides/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">dockerfile_path</a> </td> 
      <td> Specifies the location of the Dockerfile to be used for building this service, eg. <em>docker/Dockerfile</em>. </td> 
     </tr> 
     <tr> 
@@ -122,7 +122,7 @@ Below is a table of the available configurations for a given service with a brie
      <td> Arbitrary tags for services </td> 
     </tr> 
     <tr> 
-     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">git_url</a> </td> 
+     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/how-to-guides/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">git_url</a> </td> 
      <td> The Git repository URL your Docker image will be built with. </td> 
     </tr> 
     <tr> 

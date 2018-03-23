@@ -90,7 +90,7 @@ Below is a table of the available configurations for a given service with a brie
      <td> <strong>Description</strong> </td>
     </tr>
     <tr>
-     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">build_command</a> </td>
+     <td> <a href="{% if include.product == "legacy_docker" %}/legacy_docker/how-to-guides/deployment/building-your-service.html{% else %}/legacy_docker/how-to-guides/deployment/building-your-service.html{%endif%}">build_command</a> </td>
      <td> Specifies the command you would like to run during stack build. </td>
     </tr>
     <tr>

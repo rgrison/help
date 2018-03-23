@@ -131,7 +131,7 @@ toc2:
           - page: BuildGrid
             url: /legacy_docker/deployment/build-grid.html
           - page: Building your Service
-            url: /legacy_docker/deployment/building-your-service.html
+            url: /legacy_docker/how-to-guides/deployment/building-your-service.html
           - page: Docker Service Configuration
             url: /legacy_docker/deployment/docker-service-configuration.html
           - page: Environment Variables

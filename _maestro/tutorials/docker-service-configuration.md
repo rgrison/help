@@ -90,7 +90,7 @@ Below is a table of the available configurations for a given service with a brie
      <td> <strong>Description</strong> </td> 
     </tr> 
     <tr> 
-     <td> <a href="/legacy_docker/deployment/building-your-service.html">build_command</a> </td> 
+     <td> <a href="/legacy_docker/how-to-guides/deployment/building-your-service.html">build_command</a> </td> 
      <td> Specifies the command you would like to run during stack build. </td> 
     </tr> 
     <tr> 
@@ -106,7 +106,7 @@ Below is a table of the available configurations for a given service with a brie
      <td> Specifies <a href="/maestro/tutorials/scaling.html">container amount</a> or <a href="/maestro/tutorials/docker-service-configuration.html">resource</a> constraints for a service across the cluster. </td> 
     </tr> 
     <tr> 
-     <td> <a href=/legacy_docker/deployment/building-your-service.html"</a> </td> 
+     <td> <a href=/legacy_docker/how-to-guides/deployment/building-your-service.html"</a> </td> 
      <td> Specifies the command you would like to run during stack deploy (runs once per service). </td> 
     </tr> 
     <tr> 
@@ -114,7 +114,7 @@ Below is a table of the available configurations for a given service with a brie
      <td> Specifies the dns behaviour for this service. One of the values: <em>versioned</em>, <em>non-versioned</em>. Default value is <em>versioned</em> </td> 
     </tr> 
     <tr> 
-     <td> <a href="/legacy_docker/deployment/building-your-service.html">dockerfile_path</a> </td> 
+     <td> <a href="/legacy_docker/how-to-guides/deployment/building-your-service.html">dockerfile_path</a> </td> 
      <td> Specifies the location of the Dockerfile to be used for building this service, eg. <em>docker/Dockerfile</em>. </td> 
     </tr> 
     <tr> 
