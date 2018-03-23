@@ -14,7 +14,7 @@ permalink: /:collection/:path
 
 We currently support the following databases, with no need for additional configuration after deployment.
 
-* MySQL (or Percona if [configured via Manifest](/{{page.collection}}/how-to-guides/deployment/building-a-manifest-file.html#mysql))
+* MySQL (or Percona if [configured via Manifest](/rails/how-to-guides/deployment/building-a-manifest-file.html#mysql))
 * PostgreSQL
 * MongoDB
 * Redis
@@ -54,11 +54,11 @@ You can control your Rails database migrations by setting `run.deploy.command` o
 $ cx settings set -s my_stack run.deploy.command true
 </pre>
 
-When you have disabled `run.deploy.command` in [Stack settings](/{{page.collection}}/references/shells/toolbelt.html#settings-variables) , you still have the option to run migrations on a one-off deployment by clicking _Deploy_ -> _Deploy with options_ and selecting _Run database migrations_.
+When you have disabled `run.deploy.command` in [Stack settings](/rails/references/shells/toolbelt.html#settings-variables) , you still have the option to run migrations on a one-off deployment by clicking _Deploy_ -> _Deploy with options_ and selecting _Run database migrations_.
 
 <h2 id="customize">Customize your database configuration</h2>
 
-You can customize the database configuration on your servers using [CustomConfig](/{{page.collection}}/tutorials/custom-config-git.html). CustomConfig is available for MySQL, PostgreSQL, Redis and MongoDB.
+You can customize the database configuration on your servers using [CustomConfig](/rails/tutorials/custom-config-git.html). CustomConfig is available for MySQL, PostgreSQL, Redis and MongoDB.
 
 Editing and committing your database CustomConfig will perform the following steps on every database server in your stack, one by one, sequentially:
 

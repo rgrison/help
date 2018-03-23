@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include resources/referral-program.md %}
+{% include general/resources/referral-program.md %}

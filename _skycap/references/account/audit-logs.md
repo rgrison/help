@@ -11,4 +11,4 @@ permalink: /:collection/:path
 
 
 
-{%include references/account/audit-logs.md %}
+{% include general/references/account/audit-logs.md %}

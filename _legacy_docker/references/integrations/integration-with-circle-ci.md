@@ -9,4 +9,4 @@ tags: ["operations"]
 permalink: /:collection/:path
 ---
 
-{%include references/integrations/integration-with-circle-ci.md %}
+{% include general/references/integrations/integration-with-circle-ci.md %}

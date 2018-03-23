@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include resources/cloud66-status.md %}
+{% include general/resources/cloud66-status.md %}

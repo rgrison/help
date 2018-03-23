@@ -370,7 +370,7 @@ For **Rails/Rack** stacks this file should be present within a folder named _.cl
 /.cloud66/deploy_hooks.yml
 ```
 
-For **Docker stacks** this file should be pushed into [CustomConfig git](/{{page.collection}}/references/connect-cloud66-to-git-repo.html) Repository of the stack. This repository will be created after the stack is analysed, so you can push your deploy hooks before deployment started.
+For **Docker stacks** this file should be pushed into [CustomConfig git](/rails/references/connect-cloud66-to-git-repo.html) Repository of the stack. This repository will be created after the stack is analysed, so you can push your deploy hooks before deployment started.
 
 This file should be YAML formatted, and you can use a service like [YAMLlint](http://yamllint.com/) to validate it.
 
@@ -486,7 +486,7 @@ The example shows how to use the env_vars parameter.
 ```
 before_nginx:
    snippet: cloud66/download
-   target: {%if page.collection=='rails' or page.collection == 'node' %}{{page.collection}}{%else%}docker{%endif%}
+   target: {%if page.collection=='rails' or page.collection == 'node' %}rails{%else%}docker{%endif%}
    execute: true
    apply_during: build_only
    run_on: all_servers

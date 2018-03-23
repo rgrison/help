@@ -128,7 +128,7 @@ permalink: /:collection/:path
 
 <ul>
     <li>
-        <p><strong><a href="/{{page.collection}}/tutorials/docker-service-configuration.html">Service.yml documentation</a></strong> &mdash; including advanced configuration examples.</p>
+        <p><strong><a href="/skycap/tutorials/docker-service-configuration.html">Service.yml documentation</a></strong> &mdash; including advanced configuration examples.</p>
     </li>
     <li>
         <p><strong><a href="/maestro/how-to-guides/deployment/deployment-history.html">Multi Tenancy</a></strong> &mdash; an example of using multiple services to configure multi tenancy Stacks.</p>

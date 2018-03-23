@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include resources/faq.md %}
+{% include general/resources/faq.md %}

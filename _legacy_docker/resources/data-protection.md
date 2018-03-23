@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include resources/data-protection.md %}
+{% include general/resources/data-protection.md %}

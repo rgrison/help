@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include references/account/browser-requirements.md %}
+{% include general/references/account/browser-requirements.md %}

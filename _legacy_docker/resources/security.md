@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include resources/security.md %}
+{% include general/resources/security.md %}

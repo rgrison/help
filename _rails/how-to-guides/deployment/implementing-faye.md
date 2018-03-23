@@ -23,7 +23,7 @@ We will use four files containing the following commands to accomplish this setu
 
 ### 1. RAILS_ROOT/.cloud66/deploy_hooks.yml
 
-[Deploy hooks](/{{page.collection}}/tutorials/deploy-hooks.html) allow you to take action at various points during a build and/or deployment on Cloud 66. This one will run the bash script that we will create in the next step before Rails is installed on your server.
+[Deploy hooks](/rails/tutorials/deploy-hooks.html) allow you to take action at various points during a build and/or deployment on Cloud 66. This one will run the bash script that we will create in the next step before Rails is installed on your server.
 
 ```
 production:

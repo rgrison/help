@@ -12,10 +12,10 @@ permalink: /:collection/:path
 
 ## On the server
 
-You can connect directly into your database server and invoke a database console from there. To do that, please refer to the [terminal connection to servers](/{{page.collection}}/how-to-guides/deployment/shells/ssh.html) documentation.
+You can connect directly into your database server and invoke a database console from there. To do that, please refer to the [terminal connection to servers](/rails/how-to-guides/deployment/shells/ssh.html) documentation.
 
 
 ## With a client
 
-You can also open a firewall port in your database server to allow a remote machine to connect the it. This is possible using the [Stack security](/{{page.collection}}/tutorials/service-network-configuration.html) page, and then you can use a database client from your local computer.
+You can also open a firewall port in your database server to allow a remote machine to connect the it. This is possible using the [Stack security](/rails/tutorials/service-network-configuration.html) page, and then you can use a database client from your local computer.
 

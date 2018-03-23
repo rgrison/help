@@ -14,7 +14,7 @@ permalink: /:collection/:path
 
 You can activate SSL termination on **HAProxy 1.5.x or higher** and **Amazon Elastic Load Balancer** through SSL certificate add-in.
 
-[check here for more information](/{{page.collection}}/how-to-guides/security/ssl-certificate.html)
+[check here for more information](/legacy_docker/how-to-guides/security/ssl-certificate.html)
 
 
 ## Amazon Elastic Load Balancer

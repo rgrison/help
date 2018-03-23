@@ -14,7 +14,7 @@ Whether working in a team or by yourself, it's always useful to have an overview
 information about who deployed, when they deployed, what code revision was deployed and how the deployment was triggered (web, [API](http://developers.cloud66.com) or [redeployment hook](/rails/tutorials/redeployment-hook.html)). In addition to this, you can also revert
 back to previous commits if need be.
 
-Reverting to a previous commit will only affect your code - you might still need to restore a [database backup](/{{page.collection}}/tutorials/database-backup.html). If you wish, you can [switch off your database migrations](/{{page.collection}}/how-to-guides/databases/database-customization.html), roll back your database and then roll back your code.
+Reverting to a previous commit will only affect your code - you might still need to restore a [database backup](/rails/tutorials/database-backup.html). If you wish, you can [switch off your database migrations](/rails/how-to-guides/databases/database-customization.html), roll back your database and then roll back your code.
 
 ## Deployment Status
 A "Live" status indicates that the code in that commit is live on your servers.

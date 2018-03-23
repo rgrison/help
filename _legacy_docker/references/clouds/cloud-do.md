@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{% include references/clouds/cloud-do.md  product = page.collection %}
+{% include general/references/clouds/cloud-do.md  product = page.collection %}

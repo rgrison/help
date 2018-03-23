@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include references/account/account-protection.md %}
+{% include general/references/account/account-protection.md %}

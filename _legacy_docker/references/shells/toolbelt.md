@@ -10,4 +10,4 @@ tags: ["shell"]
 permalink: /:collection/:path
 ---
 
-{% include references/toolbelt/toolbelt.md %}
+{% include general/references/toolbelt/toolbelt.md %}

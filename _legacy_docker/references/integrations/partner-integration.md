@@ -10,4 +10,4 @@ permalink: /:collection/:path
 ---
 
 
-{%include references/integrations/partner-integration.md %}
+{% include general/references/integrations/partner-integration.md %}

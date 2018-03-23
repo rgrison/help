@@ -67,8 +67,6 @@ Database replication will disrupt the database serving your application during t
 
 </div>
 
-
-
 ### Single stack
 
 To enable replication on a single stack, visit your stack detail page, click on the database server group (eg. _PostgreSQL server_) and click _Scale Up_ in the top right corner. This will allow you to choose your new server size. Your new server should contain at least two times more disk space than the size of your database backup, and we recommend that it is comparable to your master server (in terms of memory).
@@ -97,5 +95,5 @@ To add a slave database server you need to follow the below steps. To add multip
 
 From time-to-time your slave database may go out of sync with its master. You can use our toolbelt to re-synchronize them.
 
-To re-synch them, have a look at our documentation on [Toolbelt database management](/rails/references/shells/toolbelt.html#database-management).
+To re-synch them, have a look at our documentation on [Toolbelt database management](/legacy_docker/references/shells/toolbelt.html#database-management).
 

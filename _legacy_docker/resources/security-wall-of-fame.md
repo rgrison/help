@@ -9,4 +9,4 @@ legacy: true
 permalink: /:collection/:path
 ---
 
-{%include resources/security-wall-of-fame.md %}
+{% include general/resources/security-wall-of-fame.md %}

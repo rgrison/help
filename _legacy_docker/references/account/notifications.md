@@ -11,4 +11,4 @@ permalink: /:collection/:path
 
 
 
-{%include references/account/notifications.md %}
+{% include general/references/account/notifications.md %}
