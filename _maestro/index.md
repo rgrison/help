@@ -10,4 +10,3 @@ permalink: /:collection/:categories/index.html
 <p class="lead">The Integrated and Hosted Solution to Build, Deploy and Maintain Container Based Applications on any Server.</p>
 
 {% include category_nav.html %}
-
